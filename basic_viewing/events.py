@@ -37,21 +37,22 @@ class Sound(Event):
 
             self.get_start()
             self.get_sampling_frequency()
-            self.get_has_event()
+            self.get_where_event()
 
     #get the indexes in the table of occurrence of this event
     def get_idx(self):
         if self.where_event is None:
             self.where_event = np.where(self.datagroup[self.table_columns['name']][:] == self.name)
 
-    def get_has_event(self):
+    # Query where this event happened
+    def get_where_event(self):
         if self.has_event is None:
             self.has_event = self.datagroup[self.table_columns['name']][:] == self.name
 
     #get the table of events
     def get_col(self, col_name):
         if self.has_event is None:
-            self.get_has_event()
+            self.get_where_event()
         data_set = self.datagroup[self.table_columns[col_name]]
         data_type = np.dtype(data_set)
         return np.array(data_set[self.has_event], dtype=data_type)

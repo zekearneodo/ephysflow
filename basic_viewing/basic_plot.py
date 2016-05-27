@@ -148,7 +148,7 @@ def sparse_raster(x, nan=False):
     raster[:] = np.nan
 
     for trial in np.arange(n_t):
-        r = x[trial, :]
+        r = x[trial, :]-1
         raster[trial, np.array(r[~np.isnan(r)], dtype=np.int)] = 1
 
     if not nan:

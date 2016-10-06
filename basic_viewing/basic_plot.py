@@ -30,7 +30,7 @@ def col_binned(a, bs):
 
     n = a.shape[0]
     m = a.shape[1]
-    o = np.ceil(m / bs)
+    o = np.int(np.ceil(m / bs))
 
     pad = np.empty([n, o * bs - m]) * np.nan
     padded = np.append(a, pad, axis=1)

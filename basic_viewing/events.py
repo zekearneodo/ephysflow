@@ -2,7 +2,7 @@
 import h5py
 import numpy as np
 
-from basic_viewing import kwik_functions as kwf
+from basic_viewing.structure import kwik_functions as kwf
 from file_tools import experiment as et
 
 
@@ -17,13 +17,13 @@ class Event:
     has_event = None
     get_table_function = None
 
-    data = None
+    data_h5 = None
     datagroup = None
     datasets = None
 
     def __init__(self, name, h5=None):
         self.name = name
-        self.data = h5
+        self.data_h5 = h5
 
 
 class Sound(Event):
@@ -35,7 +35,7 @@ class Sound(Event):
             'code': 'codes',
             'start': 'time_samples'}
 
-        if self.data is not None:
+        if self.data_h5 is not None:
             self.datagroup_path = '/event_types/Stimulus'
             self.datagroup = h5[self.datagroup_path]
             self.datasets = self.datagroup.keys()
@@ -74,7 +74,7 @@ class Sound(Event):
             self.start = self.get_col('start')
         if self.rec is None:
             self.rec = self.get_col('rec')
-        return kwf.apply_rec_offset(self.data, self.start, self.rec)
+        return kwf.apply_rec_offset(self.data_h5, self.start, self.rec)
 
     def get_rec(self):
         if self.rec is None:
@@ -82,21 +82,21 @@ class Sound(Event):
         return self.rec
 
     def get_meta(self):
-        return kwf.attrs2dict(self.data[self.name])
+        return kwf.attrs2dict(self.data_h5[self.name])
 
     def get_sampling_rate(self):
         if self.sampling_rate is None:
-            self.sampling_rate = kwf.get_record_sampling_frequency(self.data)
+            self.sampling_rate = kwf.get_record_sampling_frequency(self.data_h5)
         return self.sampling_rate
 
     def get_waveform(self, stream='stimulus'):
-        return kwf.read_stim_stream(self.data, self.name, stream_name=stream, parent_group=self.datagroup_path)
+        return kwf.read_stim_stream(self.data_h5, self.name, stream_name=stream, parent_group=self.datagroup_path)
 
     def list_waveforms(self):
-        return kwf.list_stim_streams(self.data, self.name, parent_group=self.datagroup_path)
+        return kwf.list_stim_streams(self.data_h5, self.name, parent_group=self.datagroup_path)
 
     def get_syllables(self, table_name='syllables'):
-        raw_table = np.array(kwf.read_stim_subtable(self.data, self.name, table_name, parent_group=self.datagroup_path))
+        raw_table = np.array(kwf.read_stim_subtable(self.data_h5, self.name, table_name, parent_group=self.datagroup_path))
         return raw_table
 
 
@@ -108,7 +108,7 @@ class Song(Sound):
             'rec': 'recording',
             'start': 'time_samples'}
 
-        if self.data is not None:
+        if self.data_h5 is not None:
             self.datagroup_path = '/event_types/singing/{}'.format(name)
             self.datagroup = h5[self.datagroup_path]
             self.datasets = self.datagroup.keys()
@@ -125,6 +125,14 @@ class Song(Sound):
     def get_idx(self):
         if self.where_event is None:
             self.where_event = np.arange(self.datagroup[self.table_columns['start']].size)
+
+    # get starting samples relative to beginning of the file (kwd or kwk)
+    def get_abs_start(self, kw_file):
+        if self.start is None:
+            self.start = self.get_col('start')
+        if self.rec is None:
+            self.rec = self.get_col('rec')
+        return kwf.apply_rec_offset(kw_file, self.start, self.rec)
 
     def get_meta(self):
         pass

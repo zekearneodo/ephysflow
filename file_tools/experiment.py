@@ -7,12 +7,12 @@ import h5py
 import glob
 import errno
 
-# for more than files
+# for more than structure
 import numpy as np
 from numpy.lib import recfunctions as rf
 
 os.path.split(os.path.abspath(os.curdir))
-from basic_viewing import h5_functions as h5f
+from basic_viewing.structure.core import h5_functions as h5f
 
 
 def get_definitions_dictionaries():
@@ -67,7 +67,7 @@ def file_names(bird, sess='', rec=0, experiment_folder=None, base='experiment'):
                'prb': os.path.join(experiment_folder, 'probes'),
                'kai': os.path.join(os.path.abspath('/mnt/cube/kai/results'), bird, sess)}
 
-    files = {'base': base,
+    files = {'structure': base,
              'ss_raw': base + '.raw.kwd',
              'ss_bin': base + '.dat',
              'ss_par': base + '.par.yml',
@@ -86,17 +86,17 @@ def file_names(bird, sess='', rec=0, experiment_folder=None, base='experiment'):
              'ks_cfg': 'config.m'}
 
     return {'folders': folders,
-            'files': files}
+            'structure': files}
 
 
 def file_path(fn_dict, folder_key, file_key):
     """
     :param fn_dict: dictionary of file_names (as output of file_names)
     :param folder_key: string, key to folders (folder type)
-    :param file_key: string, key to files (file type)
+    :param file_key: string, key to structure (file type)
     :return:
     """
-    return os.path.join(fn_dict['folders'][folder_key], fn_dict['files'][file_key])
+    return os.path.join(fn_dict['folders'][folder_key], fn_dict['structure'][file_key])
 
 
 def mkdir_p(path):
@@ -118,7 +118,7 @@ def list_sessions(bird, experiment_folder=None, location='ss'):
 
 def get_parameters(bird, sess, rec=0, experiment_folder=None, location='ss'):
     fn = file_names(bird, sess, rec, experiment_folder=experiment_folder)
-    with open(os.path.join(fn['folders'][location], fn['files']['par']), 'r') as f:
+    with open(os.path.join(fn['folders'][location], fn['structure']['par']), 'r') as f:
         pars = yaml.load(f)
     return pars
 
@@ -134,9 +134,9 @@ def open_kwik(bird_id, sess, shank=None, location='ss'):
     fn = file_names(bird_id, sess, 0)
     ss_path = fn['folders'][location]
     if shank is None:
-        kwik_file_name = '{0}.kwik'.format(fn['files']['base'])
+        kwik_file_name = '{0}.kwik'.format(fn['structure']['structure'])
     else:
-        kwik_file_name = '{0}_{1:01}.kwik'.format(fn['files']['base'], int(shank))
+        kwik_file_name = '{0}_{1:01}.kwik'.format(fn['structure']['structure'], int(shank))
     kwik_file_path = os.path.join(ss_path, kwik_file_name)
     kwik_file = h5py.File(kwik_file_path, 'r')
     return kwik_file
@@ -183,7 +183,7 @@ def get_bird_events(bird, sessions_list=[], event_type=None, event_names=[], exp
 
 def get_one_sess_events(bird, sess, event_type=None, event_names=[], experiment_folder=None, location='ss'):
     fn = file_names(bird, sess, experiment_folder=experiment_folder)
-    kwe_path = os.path.join(fn['folders'][location], fn['files']['sng'])
+    kwe_path = os.path.join(fn['folders'][location], fn['structure']['sng'])
     try:
         if event_type is None:
             events = h5f.get_all_events(kwe_path)

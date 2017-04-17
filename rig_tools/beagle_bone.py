@@ -22,7 +22,7 @@ def parse_command(cmd_str):
 
 
 class BeagleBone:
-    def __init__(self, port='5558', ip='192.168.7.2', timeout_s=10.):
+    def __init__(self, port='5558', ip='192.168.7.2', timeout_s=60.):
         self.ip = ip
         self.port = port
         self.socket = None

@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84aa402b-061d-40ee-b35e-86bf3d4619b3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../swissknife/setup.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/archivetools/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/archivetools/tar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/archivetools/tar_example.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/expstruct.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/file/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/file/file_functions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/file/h5_functions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/kwefunctions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/kwik_functions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/pipeline/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/pipeline/core/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/pipeline/core/archive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/pipeline/core/kilosort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/pipeline/do_kilosort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/events.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/stimalign.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/supersession.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/synthetic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/bci/unitmeta.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/decoder/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/decoder/core/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/decoder/core/datashape.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/decoder/linear.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/decoder/neural.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/dynamo/.idea/dynamo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/dynamo/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/dynamo/dynsysplayground-takens.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/dynamo/finch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/dynamo/ode.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/dynamo/takens.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/h5tools/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/h5tools/h5tools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/h5tools/tables.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/streamtools/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/streamtools/core/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/streamtools/currentsource.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/streamtools/spectral.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/streamtools/streams.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/streamtools/temporal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/threadtools/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../swissknife/threadtools/threadedfunction.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../swissknife/bci/__init__.py" afterPath="$PROJECT_DIR$/../swissknife/swissknife/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../swissknife/bci/core/__init__.py" afterPath="$PROJECT_DIR$/../swissknife/swissknife/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Discrete birdsong decoding in lintu-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Discrete birdsong decoding in lintu-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/LSTM_predict-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/LSTM_predict-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/align_stim-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/align_stim-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/digital serial-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/digital serial-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/kilosort_from_passaro-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/kilosort_from_passaro-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/kwik_file_example-Copy1-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/kwik_file_example-Copy1-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/kwik_file_example-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/kwik_file_example-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/kwik_file_example-chop_syllables-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/kwik_file_example-chop_syllables-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/kwik_file_example-exported-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/kwik_file_example-exported-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/make_alpha_beta_wavs-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/make_alpha_beta_wavs-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_kwd-supersession-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_kwd-supersession-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_kwd-supersession-v2-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_kwd-supersession-v2-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_neural-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_neural-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_reading-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_reading-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_bout-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_bout-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-from_functions-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-from_functions-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-from_functions-envcheck-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-from_functions-envcheck-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-unified-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-unified-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-v2-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-v2-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-v2-nopandas-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif-v2-nopandas-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif_z020-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/open_ephys_searching_motif_z020-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-aftermath-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-aftermath-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-aftermath-v4-kai-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-aftermath-v4-kai-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-aftermath-v4.3-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-aftermath-v4.3-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4.1-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4.1-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4.2-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4.2-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4.21-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4.21-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4.210-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/searching_motif-v4.210-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-after-sort-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-after-sort-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-after-sort-open-ephys-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-after-sort-open-ephys-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-singing-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-singing-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-singing-kilo-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-singing-kilo-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-singing-kilo-z007-before_sweep-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-singing-kilo-z007-before_sweep-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-singing-kilo-z007-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-singing-kilo-z007-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-sleeping-kilo-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/view_rasters-sleeping-kilo-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Discrete birdsong decoding in lintu.ipynb" afterPath="$PROJECT_DIR$/Discrete birdsong decoding in lintu.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LSTM_predict.ipynb" afterPath="$PROJECT_DIR$/LSTM_predict.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Untitled.ipynb" afterPath="$PROJECT_DIR$/Untitled.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/align_stim-from_pkg.ipynb" afterPath="$PROJECT_DIR$/align_stim-from_pkg.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/align_stim.ipynb" afterPath="$PROJECT_DIR$/align_stim.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation_works.ipynb" afterPath="$PROJECT_DIR$/animation_works.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic_viewing/.idea/.name" afterPath="$PROJECT_DIR$/basic_viewing/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic_viewing/__init__.py" afterPath="$PROJECT_DIR$/basic_viewing/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bci_pipeline/do_kilosort.py" afterPath="$PROJECT_DIR$/bci_pipeline/do_kilosort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csd_test.ipynb" afterPath="$PROJECT_DIR$/csd_test.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_compress-v0.ipynb" afterPath="$PROJECT_DIR$/data_compress-v0.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_compress-v1-bird.ipynb" afterPath="$PROJECT_DIR$/data_compress-v1-bird.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_compress_drafts.ipynb" afterPath="$PROJECT_DIR$/data_compress_drafts.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/digital serial.ipynb" afterPath="$PROJECT_DIR$/digital serial.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_keras.ipynb" afterPath="$PROJECT_DIR$/example_keras.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file_tools/__init__.py" afterPath="$PROJECT_DIR$/file_tools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kilosort_from_passaro.ipynb" afterPath="$PROJECT_DIR$/kilosort_from_passaro.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kwik_file_example-Copy1.ipynb" afterPath="$PROJECT_DIR$/kwik_file_example-Copy1.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kwik_file_example-chop_syllables.ipynb" afterPath="$PROJECT_DIR$/kwik_file_example-chop_syllables.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kwik_file_example-exported.ipynb" afterPath="$PROJECT_DIR$/kwik_file_example-exported.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kwik_file_example.ipynb" afterPath="$PROJECT_DIR$/kwik_file_example.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make_alpha_beta_wavs.ipynb" afterPath="$PROJECT_DIR$/make_alpha_beta_wavs.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/motiffs_to_wavs.ipynb" afterPath="$PROJECT_DIR$/motiffs_to_wavs.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nohup.out" afterPath="$PROJECT_DIR$/nohup.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_kwd-supersession-frompkg-kilosort-niao.ipynb" afterPath="$PROJECT_DIR$/open_ephys_kwd-supersession-frompkg-kilosort-niao.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_kwd-supersession-frompkg.ipynb" afterPath="$PROJECT_DIR$/open_ephys_kwd-supersession-frompkg.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_kwd-supersession-v2.ipynb" afterPath="$PROJECT_DIR$/open_ephys_kwd-supersession-v2.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_kwd-supersession.ipynb" afterPath="$PROJECT_DIR$/open_ephys_kwd-supersession.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_neural.ipynb" afterPath="$PROJECT_DIR$/open_ephys_neural.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_reading.ipynb" afterPath="$PROJECT_DIR$/open_ephys_reading.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_searching_bout.ipynb" afterPath="$PROJECT_DIR$/open_ephys_searching_bout.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_searching_motif-from_functions-envcheck.ipynb" afterPath="$PROJECT_DIR$/open_ephys_searching_motif-from_functions-envcheck.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_searching_motif-from_functions.ipynb" afterPath="$PROJECT_DIR$/open_ephys_searching_motif-from_functions.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_searching_motif-unified.ipynb" afterPath="$PROJECT_DIR$/open_ephys_searching_motif-unified.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_searching_motif-v2-nopandas.ipynb" afterPath="$PROJECT_DIR$/open_ephys_searching_motif-v2-nopandas.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_searching_motif-v2.ipynb" afterPath="$PROJECT_DIR$/open_ephys_searching_motif-v2.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_searching_motif_z020.ipynb" afterPath="$PROJECT_DIR$/open_ephys_searching_motif_z020.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_ephys_supersession_surface.ipynb" afterPath="$PROJECT_DIR$/open_ephys_supersession_surface.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/peri_universal.ipynb" afterPath="$PROJECT_DIR$/peri_universal.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phy_tools/__init__.py" afterPath="$PROJECT_DIR$/phy_tools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rig_tools/.ipynb_checkpoints/singtome-checkpoint.ipynb" afterPath="$PROJECT_DIR$/rig_tools/.ipynb_checkpoints/singtome-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rig_tools/__init__.py" afterPath="$PROJECT_DIR$/rig_tools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rig_tools/beagle_bone.py" afterPath="$PROJECT_DIR$/rig_tools/beagle_bone.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rig_tools/open_ephys.py" afterPath="$PROJECT_DIR$/rig_tools/open_ephys.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rig_tools/singtome.ipynb" afterPath="$PROJECT_DIR$/rig_tools/singtome.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching_motif-aftermath-v4-kai.ipynb" afterPath="$PROJECT_DIR$/searching_motif-aftermath-v4-kai.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching_motif-aftermath-v4.3.ipynb" afterPath="$PROJECT_DIR$/searching_motif-aftermath-v4.3.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching_motif-aftermath.ipynb" afterPath="$PROJECT_DIR$/searching_motif-aftermath.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching_motif-v4.1.ipynb" afterPath="$PROJECT_DIR$/searching_motif-v4.1.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching_motif-v4.2.ipynb" afterPath="$PROJECT_DIR$/searching_motif-v4.2.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching_motif-v4.21.ipynb" afterPath="$PROJECT_DIR$/searching_motif-v4.21.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching_motif-v4.210.ipynb" afterPath="$PROJECT_DIR$/searching_motif-v4.210.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searching_motif-v4.ipynb" afterPath="$PROJECT_DIR$/searching_motif-v4.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single_kwd_check.ipynb" afterPath="$PROJECT_DIR$/single_kwd_check.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soundrecorder/recorder.py" afterPath="$PROJECT_DIR$/soundrecorder/recorder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soundrecorder/recorder_testing.py" afterPath="$PROJECT_DIR$/soundrecorder/recorder_testing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spike_detect_aux.py" afterPath="$PROJECT_DIR$/spike_detect_aux.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spike_detect_z007-cleanup-ffnn.ipynb" afterPath="$PROJECT_DIR$/spike_detect_z007-cleanup-ffnn.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spike_detect_z007-cleanup.ipynb" afterPath="$PROJECT_DIR$/spike_detect_z007-cleanup.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spike_detect_z007.ipynb" afterPath="$PROJECT_DIR$/spike_detect_z007.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp-thres_window_test.ipynb" afterPath="$PROJECT_DIR$/view_lfp-thres_window_test.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp-v2-z023.ipynb" afterPath="$PROJECT_DIR$/view_lfp-v2-z023.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_find_spikes.ipynb" afterPath="$PROJECT_DIR$/view_lfp_find_spikes.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_v2.5.01-bos-rev.ipynb" afterPath="$PROJECT_DIR$/view_lfp_v2.5.01-bos-rev.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_v2.5.011.ipynb" afterPath="$PROJECT_DIR$/view_lfp_v2.5.011.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_v2.5.01_csd.ipynb" afterPath="$PROJECT_DIR$/view_lfp_v2.5.01_csd.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_v2.5.ipynb" afterPath="$PROJECT_DIR$/view_lfp_v2.5.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_v2_z030-deep.ipynb" afterPath="$PROJECT_DIR$/view_lfp_v2_z030-deep.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_v2_z030.ipynb" afterPath="$PROJECT_DIR$/view_lfp_v2_z030.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_z009.ipynb" afterPath="$PROJECT_DIR$/view_lfp_z009.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_z021.ipynb" afterPath="$PROJECT_DIR$/view_lfp_z021.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_lfp_z023.ipynb" afterPath="$PROJECT_DIR$/view_lfp_z023.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-after-sort-open-ephys.ipynb" afterPath="$PROJECT_DIR$/view_rasters-after-sort-open-ephys.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-after-sort.ipynb" afterPath="$PROJECT_DIR$/view_rasters-after-sort.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-singing-kilo-b1114.ipynb" afterPath="$PROJECT_DIR$/view_rasters-singing-kilo-b1114.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-singing-kilo-fit-z007-ffnn.ipynb" afterPath="$PROJECT_DIR$/view_rasters-singing-kilo-fit-z007-ffnn.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-singing-kilo-fit-z007-keras.ipynb" afterPath="$PROJECT_DIR$/view_rasters-singing-kilo-fit-z007-keras.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-singing-kilo-fit-z007-multisess.ipynb" afterPath="$PROJECT_DIR$/view_rasters-singing-kilo-fit-z007-multisess.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-singing-kilo-fit-z007.ipynb" afterPath="$PROJECT_DIR$/view_rasters-singing-kilo-fit-z007.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-singing-kilo-z007-before_sweep.ipynb" afterPath="$PROJECT_DIR$/view_rasters-singing-kilo-z007-before_sweep.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-singing-kilo-z007.ipynb" afterPath="$PROJECT_DIR$/view_rasters-singing-kilo-z007.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-singing-kilo.ipynb" afterPath="$PROJECT_DIR$/view_rasters-singing-kilo.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-singing.ipynb" afterPath="$PROJECT_DIR$/view_rasters-singing.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters-sleeping-kilo.ipynb" afterPath="$PROJECT_DIR$/view_rasters-sleeping-kilo.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_rasters.ipynb" afterPath="$PROJECT_DIR$/view_rasters.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z007-unitseparate.ipynb" afterPath="$PROJECT_DIR$/z007-unitseparate.ipynb" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="streams.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/streamtools/streams.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-936">
+              <caret line="182" column="28" lean-forward="false" selection-start-line="182" selection-start-column="28" selection-end-line="182" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unitmeta.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/unitmeta.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="units.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic_viewing/units.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="e#42#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../swissknife/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kwik_functions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/core/kwik_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1260">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spectral.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/streamtools/spectral.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" column="44" lean-forward="false" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expstruct.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/core/expstruct.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h5_functions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/core/file/h5_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../swissknife" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../swissknife/bci/core/expstruct.py" />
+        <option value="$PROJECT_DIR$/../swissknife/setup.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="870" />
+    <option name="y" value="55" />
+    <option name="width" value="1303" />
+    <option name="height" value="1062" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ephysflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swissknife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ephysflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swissknife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swissknife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ephysflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swissknife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swissknife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="streamtools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ephysflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swissknife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swissknife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ephysflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swissknife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swissknife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ephysflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ephysflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ephysflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ephysflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic_viewing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../swissknife/swissknife" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ephysflow" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ephysflow" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ephysflow" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ephysflow" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84aa402b-061d-40ee-b35e-86bf3d4619b3" name="Default" comment="" />
+      <created>1491360406650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491360406650</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="870" y="55" width="1303" height="1062" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17498082" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981523" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/basic_viewing/units.py</url>
+          <line>1</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/core/kwefunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/core/file/file_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/core/file/h5_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/core/expstruct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/streamtools/streams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936">
+          <caret line="182" column="28" lean-forward="false" selection-start-line="182" selection-start-column="28" selection-end-line="182" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/h5tools/h5tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/core/kwik_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/streamtools/spectral.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="44" lean-forward="false" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../swissknife/swissknife/bci/unitmeta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_viewing/units.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#42#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../swissknife/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

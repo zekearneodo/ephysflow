@@ -1,17 +1,11 @@
-import sys
-import numpy as np
-import scipy.io as sio
-import scipy.signal as sg
-import math
-import scipy as sp
-import socket
-import os
-import wave
-import struct
-import h5py
 import logging
-import yaml
-import glob
+import os
+import socket
+import sys
+
+import numpy as np
+import scipy as sp
+import scipy.signal as sg
 
 # Check which computer to decide where the things are mounted
 comp_name = socket.gethostname()
@@ -23,23 +17,15 @@ if 'txori' in comp_name or 'passaro' in comp_name or 'lintu' in comp_name:
 sys.path.append(os.path.join(repos_folder, 'ephysflow'))
 sys.path.append(os.path.join(repos_folder, 'swissknife'))
 
-from bci.core import expstruct as et
-
-from basic_viewing import events as evt
-from basic_viewing.units import Unit
-from basic_viewing.structure.core.basic_plot import plot_raster, sparse_raster
 from basic_viewing.structure.core import basic_plot as bp
 
-from basic_viewing.structure import kwik_functions as kwkf
 from basic_viewing.structure.core import h5_functions as kwdf
 
-from h5tools import h5tools as h5
-from streamtools import streams as st
-from streamtools import spectral as sp
-from streamtools import temporal as tp
+from swissknife.streamtools import streams as st, temporal as tp
+from swissknife.streamtools import spectral as sp
 
-from decoder import linear as ld
-from bci import synthetic as syn
+from swissknife.decoder import linear as ld
+from swissknife.bci import synthetic as syn
 
 logger = logging.getLogger('spike_detect_aux')
 logger.info('Computer: {}'.format(comp_name))

@@ -1,0 +1,407 @@
+[NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+[NotebookApp] Serving notebooks from /root/experiment
+[NotebookApp] The IPython Notebook is running at: http://127.0.0.1:8888/
+[NotebookApp] Use Control-C to stop this server and shut down all kernels.
+[NotebookApp] Using system MathJax
+[NotebookApp] Kernel started: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+[NotebookApp] Connecting to: tcp://127.0.0.1:35910
+[NotebookApp] Connecting to: tcp://127.0.0.1:53475
+[NotebookApp] Connecting to: tcp://127.0.0.1:45675
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-80058693-b3fb-4ef8-b30e-ee81801ab14e.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel interrupted: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+[NotebookApp] Kernel interrupted: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+[NotebookApp] Kernel interrupted: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+[NotebookApp] Kernel restarted: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+[NotebookApp] Connecting to: tcp://127.0.0.1:35910
+[NotebookApp] Connecting to: tcp://127.0.0.1:53475
+[NotebookApp] Connecting to: tcp://127.0.0.1:45675
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-80058693-b3fb-4ef8-b30e-ee81801ab14e.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel restarted: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+ERROR:root:Uncaught exception, closing connection.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+ERROR:root:Uncaught exception, closing connection.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 420, in _handle_events
+    self._handle_recv()
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+ERROR:root:Exception in I/O handler for fd <zmq.core.socket.Socket object at 0xf4bfc0>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/ioloop.py", line 340, in start
+    self._handlers[fd](fd, events)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 420, in _handle_events
+    self._handle_recv()
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+[NotebookApp] Connecting to: tcp://127.0.0.1:35910
+[NotebookApp] Connecting to: tcp://127.0.0.1:53475
+[NotebookApp] Connecting to: tcp://127.0.0.1:45675
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-80058693-b3fb-4ef8-b30e-ee81801ab14e.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel restarted: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+ERROR:root:Uncaught exception, closing connection.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+ERROR:root:Uncaught exception, closing connection.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 420, in _handle_events
+    self._handle_recv()
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+ERROR:root:Exception in I/O handler for fd <zmq.core.socket.Socket object at 0xf4bf00>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/ioloop.py", line 340, in start
+    self._handlers[fd](fd, events)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 420, in _handle_events
+    self._handle_recv()
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+[NotebookApp] Connecting to: tcp://127.0.0.1:35910
+[NotebookApp] Connecting to: tcp://127.0.0.1:53475
+[NotebookApp] Connecting to: tcp://127.0.0.1:45675
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-80058693-b3fb-4ef8-b30e-ee81801ab14e.json
+[NotebookApp] Kernel restarted: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+[NotebookApp] Connecting to: tcp://127.0.0.1:35910
+[NotebookApp] Connecting to: tcp://127.0.0.1:53475
+[NotebookApp] Connecting to: tcp://127.0.0.1:45675
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-80058693-b3fb-4ef8-b30e-ee81801ab14e.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel interrupted: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+[NotebookApp] Kernel restarted: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+ERROR:root:Uncaught exception, closing connection.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+ERROR:root:Uncaught exception, closing connection.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 420, in _handle_events
+    self._handle_recv()
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+ERROR:root:Exception in I/O handler for fd <zmq.core.socket.Socket object at 0xf4be40>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/ioloop.py", line 340, in start
+    self._handlers[fd](fd, events)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 420, in _handle_events
+    self._handle_recv()
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+[NotebookApp] Connecting to: tcp://127.0.0.1:35910
+[NotebookApp] Connecting to: tcp://127.0.0.1:53475
+[NotebookApp] Connecting to: tcp://127.0.0.1:45675
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-80058693-b3fb-4ef8-b30e-ee81801ab14e.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel started: 2937a83a-5eef-4514-986f-380b82fd7209
+[NotebookApp] Connecting to: tcp://127.0.0.1:36297
+[NotebookApp] Connecting to: tcp://127.0.0.1:53308
+[NotebookApp] Connecting to: tcp://127.0.0.1:47195
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-2937a83a-5eef-4514-986f-380b82fd7209.json
+[NotebookApp] Kernel started: 882bab98-2c85-438f-ae6e-173f254458b6
+[NotebookApp] Connecting to: tcp://127.0.0.1:44908
+[NotebookApp] Connecting to: tcp://127.0.0.1:59642
+[NotebookApp] Connecting to: tcp://127.0.0.1:59630
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-882bab98-2c85-438f-ae6e-173f254458b6.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel interrupted: 882bab98-2c85-438f-ae6e-173f254458b6
+[NotebookApp] received signal 15, stopping
+[NotebookApp] Shutting down kernels
+[NotebookApp] Kernel shutdown: 80058693-b3fb-4ef8-b30e-ee81801ab14e
+[NotebookApp] Kernel shutdown: 2937a83a-5eef-4514-986f-380b82fd7209
+[NotebookApp] Kernel shutdown: 882bab98-2c85-438f-ae6e-173f254458b6
+[NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+[NotebookApp] Serving notebooks from /root/experiment
+[NotebookApp] The IPython Notebook is running at: http://127.0.0.1:8888/
+[NotebookApp] Use Control-C to stop this server and shut down all kernels.
+[NotebookApp] Using system MathJax
+[NotebookApp] Kernel started: 3ab84adc-2a3c-4d73-85da-ce2b5681d1ea
+[NotebookApp] Connecting to: tcp://127.0.0.1:50969
+[NotebookApp] Connecting to: tcp://127.0.0.1:42538
+[NotebookApp] Connecting to: tcp://127.0.0.1:43591
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-3ab84adc-2a3c-4d73-85da-ce2b5681d1ea.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/interrupt (127.0.0.1): Kernel does not exist: 882bab98-2c85-438f-ae6e-173f254458b6
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/interrupt (127.0.0.1) 21.41ms
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/interrupt (127.0.0.1): Kernel does not exist: 882bab98-2c85-438f-ae6e-173f254458b6
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/interrupt (127.0.0.1) 33.45ms
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/restart (127.0.0.1): Kernel does not exist: 882bab98-2c85-438f-ae6e-173f254458b6
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/restart (127.0.0.1) 13.84ms
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/restart (127.0.0.1): Kernel does not exist: 882bab98-2c85-438f-ae6e-173f254458b6
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/restart (127.0.0.1) 14.22ms
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/interrupt (127.0.0.1): Kernel does not exist: 882bab98-2c85-438f-ae6e-173f254458b6
+WARNING:root:404 POST /kernels/882bab98-2c85-438f-ae6e-173f254458b6/interrupt (127.0.0.1) 14.07ms
+WARNING:root:404 PUT /notebooks/a2ac0df7-f1da-47b0-81ae-35d36b5050bc (127.0.0.1): Notebook does not exist: a2ac0df7-f1da-47b0-81ae-35d36b5050bc
+WARNING:root:404 PUT /notebooks/a2ac0df7-f1da-47b0-81ae-35d36b5050bc (127.0.0.1) 32.71ms
+[NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+[NotebookApp] Serving notebooks from /root/experiment
+[NotebookApp] The IPython Notebook is running at: http://127.0.0.1:8888/
+[NotebookApp] Use Control-C to stop this server and shut down all kernels.
+[NotebookApp] Using system MathJax
+[NotebookApp] Kernel started: f8909531-6e0e-4885-9b5d-835962b02e48
+[NotebookApp] Connecting to: tcp://127.0.0.1:49245
+[NotebookApp] Connecting to: tcp://127.0.0.1:41488
+[NotebookApp] Connecting to: tcp://127.0.0.1:59810
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-f8909531-6e0e-4885-9b5d-835962b02e48.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel interrupted: f8909531-6e0e-4885-9b5d-835962b02e48
+[NotebookApp] Kernel interrupted: f8909531-6e0e-4885-9b5d-835962b02e48
+[NotebookApp] Kernel interrupted: f8909531-6e0e-4885-9b5d-835962b02e48
+[NotebookApp] Kernel shutdown: f8909531-6e0e-4885-9b5d-835962b02e48
+[NotebookApp] Kernel f8909531-6e0e-4885-9b5d-835962b02e48 failed to respond to heartbeat
+[NotebookApp] Kernel started: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Connecting to: tcp://127.0.0.1:56382
+[NotebookApp] Connecting to: tcp://127.0.0.1:58771
+[NotebookApp] Connecting to: tcp://127.0.0.1:51413
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-91f05a5a-4ddb-435a-9b89-f9e233aff96f.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel interrupted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Kernel interrupted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Kernel interrupted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Kernel interrupted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Kernel interrupted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Kernel interrupted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Kernel restarted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+ERROR:root:Uncaught exception, closing connection.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+ERROR:root:Uncaught exception, closing connection.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 420, in _handle_events
+    self._handle_recv()
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+ERROR:root:Exception in I/O handler for fd <zmq.core.socket.Socket object at 0xfcd960>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/ioloop.py", line 340, in start
+    self._handlers[fd](fd, events)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 420, in _handle_events
+    self._handle_recv()
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 452, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/usr/lib/python2.7/dist-packages/zmq/eventloop/zmqstream.py", line 394, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/frontend/html/notebook/handlers.py", line 427, in _on_zmq_reply
+    self.write_message(msg)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 144, in write_message
+    self.ws_connection.write_message(message, binary=binary)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 526, in write_message
+    self._write_frame(True, opcode, message)
+  File "/usr/lib/python2.7/dist-packages/tornado/websocket.py", line 516, in _write_frame
+    self.stream.write(frame)
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 196, in write
+    self._check_closed()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 564, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+[NotebookApp] Connecting to: tcp://127.0.0.1:56382
+[NotebookApp] Connecting to: tcp://127.0.0.1:58771
+[NotebookApp] Connecting to: tcp://127.0.0.1:51413
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-91f05a5a-4ddb-435a-9b89-f9e233aff96f.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel interrupted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Kernel restarted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Connecting to: tcp://127.0.0.1:56382
+[NotebookApp] Connecting to: tcp://127.0.0.1:58771
+[NotebookApp] Connecting to: tcp://127.0.0.1:51413
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-91f05a5a-4ddb-435a-9b89-f9e233aff96f.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+[NotebookApp] Kernel started: f721670b-80ae-4150-ac1f-5ec3829e3ea6
+[NotebookApp] Connecting to: tcp://127.0.0.1:37409
+[NotebookApp] Connecting to: tcp://127.0.0.1:46837
+[NotebookApp] Connecting to: tcp://127.0.0.1:48565
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-f721670b-80ae-4150-ac1f-5ec3829e3ea6.json
+[NotebookApp] Kernel interrupted: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] received signal 15, stopping
+[NotebookApp] Shutting down kernels
+[NotebookApp] Kernel shutdown: 91f05a5a-4ddb-435a-9b89-f9e233aff96f
+[NotebookApp] Kernel shutdown: f721670b-80ae-4150-ac1f-5ec3829e3ea6
+[NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+[NotebookApp] Serving notebooks from /root/experiment
+[NotebookApp] The IPython Notebook is running at: http://127.0.0.1:8899/
+[NotebookApp] Use Control-C to stop this server and shut down all kernels.
+WARNING:root:404 GET /cd180194-7e0c-487e-bc35-cd8f6915761b (127.0.0.1): Notebook does not exist: cd180194-7e0c-487e-bc35-cd8f6915761b
+WARNING:root:404 GET /cd180194-7e0c-487e-bc35-cd8f6915761b (127.0.0.1) 48.76ms
+[NotebookApp] Using system MathJax
+[NotebookApp] Kernel started: b143406e-e4f7-469a-bac0-059ea6047e37
+[NotebookApp] Connecting to: tcp://127.0.0.1:51932
+[NotebookApp] Connecting to: tcp://127.0.0.1:41197
+[NotebookApp] Connecting to: tcp://127.0.0.1:58100
+[IPKernelApp] To connect another client to this kernel, use:
+[IPKernelApp] --existing kernel-b143406e-e4f7-469a-bac0-059ea6047e37.json
+ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream

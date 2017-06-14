@@ -147,12 +147,14 @@ def get_rec_list(k_file):
     :param k_file: (kwik or kwd)
     :return: list of recordings in an h5file (kwik/kwd) as a sorted numpy array
     """
-    return np.sort(map(int, k_file['/recordings'].keys()))
+    rec_list = list(k_file['/recordings'].keys())
+    rec_int_list = list(map(int, rec_list))
+    return np.sort(np.array(rec_list, dtype=np.int))
 
 
 @h5f.h5_wrap
 def rec_start_array(kwik):
-    rec_list = map(int, get_rec_list(kwik))
+    rec_list = get_rec_list(kwik)
     rec_array = np.arange(max(rec_list) + 1)
     start_array = np.zeros_like(rec_array)
     for i_rec in rec_list:
@@ -180,7 +182,7 @@ def apply_rec_offset(h5, stamp_array, rec_array):
 
 
 def apply_offsets(stamps, recs, offset_array):
-    offsets = map(lambda i: offset_array[i], recs)
+    offsets = list(map(lambda i: offset_array[i], recs))
     return stamps + offsets
 
 

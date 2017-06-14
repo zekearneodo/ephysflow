@@ -14,7 +14,7 @@ def decim(x, q):
     # x: 1xn matrix (float)
     # q: int (decimate ratio), 0<q<=x.size
     assert (x.size >= q and q > 0)
-    pad_size = math.ceil(float(x.size) / q) * q - x.size
+    pad_size = int(math.ceil(float(x.size) / q) * q - x.size)
     pad = np.empty(pad_size)
     pad[:] = np.nan
     x_padded = np.append(x, pad)

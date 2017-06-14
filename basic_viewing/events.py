@@ -1,4 +1,6 @@
 # some objects to do quick stuff on events
+from __future__ import division
+
 import h5py
 import numpy as np
 
@@ -110,6 +112,8 @@ class Song(Sound):
 
         if self.data_h5 is not None:
             self.datagroup_path = '/event_types/singing/{}'.format(name)
+            #print(self.datagroup_path)
+            #print(h5)
             self.datagroup = h5[self.datagroup_path]
             self.datasets = self.datagroup.keys()
 

@@ -10,7 +10,7 @@ import scipy.signal as sg
 # Check which computer to decide where the things are mounted
 comp_name = socket.gethostname()
 
-if 'txori' in comp_name or 'passaro' in comp_name or 'lintu' in comp_name:
+if 'txori' in comp_name or 'passaro' in comp_name or 'niao' in comp_name:
     repos_folder = os.path.abspath('/mnt/cube/earneodo/repos')
     experiment_folder = os.path.join('/mnt/cube/earneodo/bci_zf/')
 

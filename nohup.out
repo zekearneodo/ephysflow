@@ -1,9 +1,0 @@
-[I 18:51:53.182 NotebookApp] Serving notebooks from local directory: /Users/zeke/repos/ephysflow
-[I 18:51:53.183 NotebookApp] 0 active kernels 
-[I 18:51:53.183 NotebookApp] The IPython Notebook is running at: http://localhost:8877/
-[I 18:51:53.183 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 18:52:03.596 NotebookApp] 302 GET / (::1) 0.82ms
-[I 18:52:53.525 NotebookApp] Creating new notebook in 
-[I 18:52:54.069 NotebookApp] Kernel started: 0285215e-32ee-44c0-bd35-9c9ca7de4612
-[W 18:53:37.439 NotebookApp] delete /Untitled.ipynb
-[I 18:53:37.852 NotebookApp] Kernel shutdown: 0285215e-32ee-44c0-bd35-9c9ca7de4612

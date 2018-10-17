@@ -1,15 +1,15 @@
 # objects to do quick stuff with clusters
 from __future__ import division
 
-import h5py
 import numpy as np
 import logging
 
-from basic_viewing.structure.core import h5_functions as h5f
-from basic_viewing.structure.core import basic_plot as bp
-from basic_viewing.structure import kwik_functions as kf
+from swissknife.bci.core.file import h5_functions as h5f
+from swissknife.bci.core import kwik_functions as h5f
 
-logger = logging.getLogger('ephysflow.basic_viewing.structure.units')
+from swissknife.bci.core import basic_plot as bp
+
+logger = logging.getLogger('swissknife.bci.core.units')
 
 
 class Unit:

@@ -23,68 +23,96 @@ class OpenEphysEvents:
 
     def start_acq(self, ):
         if self.query_status('Acquiring'):
-            print 'Already acquiring'
+            print('Already acquiring')
         else:
             self.send_command('StartAcquisition')
             if self.query_status('Acquiring'):
-                print 'Acquisition Started'
+                print('Acquisition Started')
             else:
-                print 'Something went wrong starting acquisition'
+                print('Something went wrong starting acquisition')
 
     def stop_acq(self, ):
         if self.query_status('Recording'):
-            print 'Cant stop acquistion while recording'
+            print('Cant stop acquistion while recording')
 
         elif not self.query_status('Acquiring'):
-            print 'No acquisition running'
+            print('No acquisition running')
 
         else:
             self.send_command('StopAcquisition')
             if not self.query_status('Acquiring'):
-                print 'Acquistion stopped'
+                print('Acquistion stopped')
             else:
-                print 'Something went wrong stopping acquisition'
+                print('Something went wrong stopping acquisition')
 
-    def start_rec(self, rec_par={'CreateNewDir': '0', 'RecDir': None, 'PrependText': None, 'AppendText': None}):
+    def start_rec(self, rec_par={'CreateNewDir': '0',
+                                 'RecDir': None,
+                                 'PrependText': None,
+                                 'AppendText': None}):
         ok_to_start = False
         ok_started = False
 
         if self.query_status('Recording'):
-            print 'Already Recording'
+            print('Already Recording')
 
         elif not self.query_status('Acquiring'):
-            print 'Was not Acquiring'
+            print('Was not Acquiring')
             self.start_acq()
             if self.query_status('Acquiring'):
                 ok_to_start = True
-                print 'OK to start'
+                print('OK to start')
         else:
             ok_to_start = True
-            print 'OK to start'
+            print('OK to start')
 
         if ok_to_start:
             rec_opt = ['{0}={1}'.format(key, value)
-                       for key, value in rec_par.iteritems()
+                       for key, value in rec_par.items()
                        if value is not None]
             self.send_command(' '.join(['StartRecord'] + rec_opt))
             if self.query_status('Recording'):
-                print 'Recording path: {}'.format(self.get_rec_path())
+                print('Recording path: {}'.format(self.get_rec_path()))
                 ok_started = True
             else:
-                print 'Something went wrong starting recording'
+                print('Something went wrong starting recording')
         else:
-            'Did not start recording'
+            print('Did not start recording')
         return ok_started
 
     def stop_rec(self, ):
         if self.query_status('Recording'):
             self.send_command('StopRecord')
             if not self.query_status('Recording'):
-                print 'Recording stopped'
+                print('Recording stopped')
             else:
-                print 'Something went wrong stopping recording'
+                print('Something went wrong stopping recording')
         else:
-            print 'Was not recording'
+            print('Was not recording')
+
+    def break_rec(self):
+        ok_to_start = False
+        ok_started = False
+        print('Breaking recording in progress')
+        if self.query_status('Recording'):
+            self.send_command('StopRecord')
+            if not self.query_status('Recording'):
+                #print('Recording stopped')
+                ok_to_start = True
+                #print('OK to start')
+            else:
+                print('Something went wrong stopping recording')
+
+        else:
+            print('Was not recording')
+
+        if ok_to_start:
+            #print('trying to record')
+            self.send_command('StartRecord')
+            if self.query_status('Recording'):
+                #print('Recording path: {}'.format(self.get_rec_path()))
+                ok_started = True
+            else:
+                print('Something went wrong starting recording')
 
     def get_rec_path(self):
         return self.send_command('GetRecordingPath')

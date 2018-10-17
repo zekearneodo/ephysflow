@@ -4,10 +4,10 @@ from __future__ import division
 import numpy as np
 import logging
 
-from swissknife.bci.core.file import h5_functions as h5f
-from swissknife.bci.core import kwik_functions as h5f
+from basic_viewing.structure.core import h5_functions as h5f
+from basic_viewing.structure import kwik_functions as kf
 
-from swissknife.bci.core import basic_plot as bp
+from basic_viewing.structure.core import basic_plot as bp
 
 logger = logging.getLogger('swissknife.bci.core.units')
 

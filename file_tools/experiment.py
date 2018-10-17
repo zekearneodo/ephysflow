@@ -33,6 +33,10 @@ def get_definitions_dictionaries():
                      {'repos': os.path.abspath('/mnt/cube/earneodo/repos'),
                       'experiment': os.path.abspath('/mnt/cube/earneodo/bci_zf'),
                       'experiment_local': os.path.abspath('/home/earneodo/bci_zf')},
+                 'manu':
+                     {'repos': os.path.abspath('/mnt/cube/earneodo/repos'),
+                      'experiment': os.path.abspath('/mnt/cube/earneodo/bci_zf'),
+                      'experiment_local': os.path.abspath('/home/earneodo/bci_zf')},
                  }
 
     return {'packages': packages,

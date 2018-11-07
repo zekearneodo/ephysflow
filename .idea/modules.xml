@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ephysflow.iml" filepath="$PROJECT_DIR$/.idea/ephysflow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../playground/.idea/playground.iml" filepath="$PROJECT_DIR$/../playground/.idea/playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/../swissknife/.idea/swissknife.iml" filepath="$PROJECT_DIR$/../swissknife/.idea/swissknife.iml" />
     </modules>
   </component>
